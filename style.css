@@ -1,0 +1,13 @@
+.tictac{
+    height: 10px;
+    width: 20px;
+    border-radius: 99px;
+    animation: turn 1s infinite linear;
+    pointer-events: none;
+}
+
+@keyframes turn{
+    100%{
+        transform: rotate(360deg);
+    }
+}
